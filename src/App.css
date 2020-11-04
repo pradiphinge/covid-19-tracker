@@ -1,0 +1,25 @@
+/** @format */
+body {
+  background-color: #f5f6fa;
+  margin: 5rem 2rem;
+}
+.app {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: 2rem;
+}
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 990px) {
+  .app {
+    grid-template-columns: auto;
+  }
+}
