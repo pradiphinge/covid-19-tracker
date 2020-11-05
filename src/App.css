@@ -1,7 +1,8 @@
 /** @format */
 body {
   background-color: #f5f6fa;
-  margin: 5rem 2rem;
+  margin: 0;
+  padding: 5rem 2rem;
 }
 .app {
   display: grid;
